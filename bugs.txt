@@ -77,6 +77,15 @@ netaddr.AddrFormatError: '10.10.10.300' is not a supported address format!
 nnnnnnnnnnnnnnnn
 
 
+nnnnn
+using auth config files allows the following to report misleading info.
+rho auth add
+rho auth clear --all
+rho auth list
+nnnnn
+
+
+
 
 
 =========================BUGS THAT NEED QA==================================================
