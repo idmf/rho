@@ -82,6 +82,12 @@ using auth config files allows the following to report misleading info.
 rho auth add
 rho auth clear --all
 rho auth list
+
+rm -Rf configFile 
+[test@whayutin ~]$ rho auth add --file=.ssh/id_dsa --name=foobar --username=root --config=configFile --log=logFile --log-level=debug
+Creating new config file: /home/test/rho/configFile
+[test@whayutin ~]$ rho auth list
+No auth credentials found
 nnnnn
 
 
